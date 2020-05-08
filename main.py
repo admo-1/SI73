@@ -6,7 +6,7 @@ def main():
   systeme = [Equation(['A','B'], 'X'), Equation(['C','E','D'], 'F'),Equation(['X','D'], 'Z')]
   
   #Affichage de l'hypothèse initiale
-  print('hypothese initiale: ' + str(hypothese))
+  print('Hypothèse initiale: ' + str(hypothese))
     
   #Pour chaque H de Hypothèses faire
   for h in hypothese: 
@@ -22,6 +22,6 @@ def main():
         hypothese.append(e.conclusion)    
   
   #Affichage de l'hypothèse finale
-  print('hypothese finale: ' + str(hypothese))
+  print('Hypothèse finale:   ' + str(hypothese))
 
 main()
